@@ -2,7 +2,7 @@
    ARCHIVO ÚNICO DE RESPONSIVE
    Este código arregla TODA la web en móviles
    ============================================= */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     /* --- MENÚ ANTIGUO --- */
     .navbar ul { display: none !important; }
@@ -25,7 +25,7 @@
         display: flex !important; flex-direction: column !important; align-items: stretch !important;
         gap: 15px !important; padding: 0 5% !important; width: 100% !important;
     }
-    .hero { height: 65vh !important; padding-top: 100px !important; padding-bottom: 20px !important; }    }
+    .hero { height: 65vh !important; padding-top: 100px !important; padding-bottom: 20px !important; }    
 
     /* --- MENÚ HAMBURGUESA --- */
     .menu-toggle { display: block !important; cursor: pointer; padding: 10px; }
@@ -109,4 +109,5 @@
 }
 .precio-fila { font-size: 0.9rem !important; }
 .precio-fila strong { font-size: 1rem !important; 
+}
 }

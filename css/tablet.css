@@ -1,4 +1,4 @@
-@media (min-width: 769px) and (max-width: 1025px) {
+@media (min-width: 767px) and (max-width: 1025px) {
 
     /* --- MENÚ HAMBURGUESA --- */
     .navbar ul { display: none !important; }
@@ -31,14 +31,27 @@
 
 /* --- CARDS EN 3 COLUMNAS --- */
     .cards-container {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
     gap: 20px !important;
     padding: 0 5% !important;
 }
     .rutas-lista { padding: 0 2% !important; }
-    .card { width: 100% !important; max-width: 100% !important; }
-    .card img { height: 200px !important; object-fit: cover !important; }
+    .card { width: 100% !important; max-width: 480px !important;  }
+    .card img {  height: 180px !important; object-fit: cover !important; }
+
+    .ruta-detalles-inner {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+    .tabla-precios { 
+    width: 90% !important; 
+    max-width: 500px !important;
+}
+    .info-texto { width: 90% !important; }
+    .info-texto p { font-size: 1.1rem !important; }
 
         /* --- TESTIMONIOS --- */
     .test-card p { font-size: 1rem !important; }
