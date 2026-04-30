@@ -25,11 +25,7 @@
         display: flex !important; flex-direction: column !important; align-items: stretch !important;
         gap: 15px !important; padding: 0 5% !important; width: 100% !important;
     }
-    .hero {
-    width: 100% !important; 
-    margin: 0 !important; 
-    border-radius: 0 !important;         
-    }
+    .hero { height: 65vh !important; padding-top: 100px !important; padding-bottom: 20px !important; }    }
 
     /* --- MENÚ HAMBURGUESA --- */
     .menu-toggle { display: block !important; cursor: pointer; padding: 10px; }
@@ -74,7 +70,7 @@
     h1 { font-size: 1.8rem !important; }
     h2 { font-size: 1.1rem !important; }
     /* TEXTO SUBTÍTULO DEL HERO */
-    .hero-content p { font-size: 1rem !important; }
+    .hero-content p { font-size: 1rem !important; padding-top: 60px !important; } 
     .card-body p, .card p { font-size: 0.85rem !important; line-height: 1.4 !important; margin-bottom: 10px !important; }
     .banner-content h1 { font-size: 3.3rem !important; }
     .banner-content p { font-size: 1.3rem !important; }
