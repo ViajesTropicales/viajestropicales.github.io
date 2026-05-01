@@ -25,8 +25,7 @@
         display: flex !important; flex-direction: column !important; align-items: stretch !important;
         gap: 15px !important; padding: 0 5% !important; width: 100% !important;
     }
-    .hero { height: 65vh !important; padding-top: 100px !important; padding-bottom: 20px !important; }    
-
+    .hero { height: 75vh !important; padding-top: 120px !important; padding-bottom: 20px !important; overflow: hidden !important; }
     /* --- MENÚ HAMBURGUESA --- */
     .menu-toggle { display: block !important; cursor: pointer; padding: 10px; }
     .menu-toggle.is-active .bar:nth-child(2) { opacity: 0; }
@@ -71,7 +70,8 @@
     h2 { font-size: 1.1rem !important; }
     /* TEXTO SUBTÍTULO DEL HERO */
     .hero-content p { font-size: 1rem !important; padding-top: 60px !important; } 
-    .hero-content h1 { font-size: 1.5rem !important; line-height: 1.2 !important; }    .card-body p, .card p { font-size: 0.85rem !important; line-height: 1.4 !important; margin-bottom: 10px !important; }
+    .hero-content h1 { font-size: 1.4rem !important; line-height: 1.2 !important; margin-top: 20px;}    
+    .card-body p, .card p { font-size: 0.85rem !important; line-height: 1.4 !important; margin-bottom: 10px !important; }
     .banner-content h1 { font-size: 3.3rem !important; }
     .banner-content p { font-size: 1.3rem !important; }
     .ruta-detalles h2 { font-size: 1.4rem !important; }
@@ -90,7 +90,7 @@
     .footer .btn-secondary { display: block !important; width: 90% !important; max-width: 280px; margin: 20px auto 0 !important; }
 
     /* --- TAMAÑOS DE LETRA MÓVIL --- */
-    body { font-size: 0.9rem !important; }
+    body { font-size: 0.9rem !important; overflow: hidden !important;}
     .faq-item summary { font-size: 0.95rem !important; }
     .faq-item p { font-size: 0.85rem !important; }
     .subtitle { font-size: 0.95rem !important; }
