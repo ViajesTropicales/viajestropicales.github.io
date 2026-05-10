@@ -90,7 +90,7 @@
     .footer .btn-secondary { display: block !important; width: 90% !important; max-width: 280px; margin: 20px auto 0 !important; }
 
     /* --- TAMAÑOS DE LETRA MÓVIL --- */
-    body { font-size: 0.9rem !important; overflow: hidden !important;}
+    body { font-size: 0.9rem !important; overflow-x: hidden !important; }
     .faq-item summary { font-size: 0.95rem !important; }
     .faq-item p { font-size: 0.85rem !important; }
     .subtitle { font-size: 0.95rem !important; }
