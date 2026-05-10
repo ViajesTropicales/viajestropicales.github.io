@@ -1,7 +1,7 @@
 @media (min-width: 768px) and (max-width: 1025px) {
 
     /* --- MENÚ HAMBURGUESA --- */
-    .navbar ul { display: none !important; }
+    .navbar ul { display: none !important; position: relative; }
     .menu-toggle { display: block !important; cursor: pointer; padding: 10px;  margin-left: auto !important;}
     .menu-toggle.is-active .bar:nth-child(2) { opacity: 0; }
     .menu-toggle.is-active .bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
@@ -16,13 +16,14 @@
 
     /* --- TEXTOS MÁS GRANDES --- */
     body { font-size: 1.1rem !important; }
+    body { font-size: 1.1rem !important; overflow-x: hidden !important; }
     h1 { font-size: 2.2rem !important; }
     h2 { font-size: 1.5rem !important; }
     .banner-content h1 { font-size: 3rem !important; }
     .banner-content p { font-size: 1.7rem !important; }
 
         /* --- HERO --- */
-    .hero { height: 60vh !important; }
+    .hero { height: 60vh !important; overflow: hidden !important; }
     .hero-content h1 { font-size: 2.5rem !important; }
     .hero-content p { font-size: 1.2rem !important; }
 
