@@ -79,12 +79,6 @@ body {font-family: 'Poppins', sans-serif; color: #fff; line-height: 1.6; overflo
 
 /* --- CARD ENLAZABLE --- */
 a.card { text-decoration: none; color: inherit; display: block; }
-@media (max-width: 768px) {
-    .navbar ul{display: none;}
-    .menu-toggle { display: flex; flex-direction: column; cursor: pointer; gap: 5px; margin-left: auto;}
-    .bar {width: 25px; height: 3px; background-color: #00334e; border-radius: 3px;}
-    .nav-list { display: none; flex-direction: column; position: absolute; top: 70px; left: 0; width: 100%;
-        background-color: #fff; padding: 20px 0; z-index: 999;box-shadow: 0 5px 15px rgba(0,0,0,0.1);}
-    .nav-list.active { display: flex;}
-    .nav-list li { text-align: center; padding: 10px 0; }
-}
+
+/* Hamburguesa oculta en desktop */
+.menu-toggle { display: none; }
