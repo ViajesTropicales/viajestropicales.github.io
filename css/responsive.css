@@ -4,8 +4,8 @@
    ============================================= */
 @media (max-width: 767px) {
 
-    /* --- MENÚ ANTIGUO --- */
-    .navbar ul { display: none !important; }
+    /* --- MENÚ --- */
+    .navbar { position: fixed !important; top: 0 !important; width: 100% !important; z-index: 100 !important; }
 
     /* --- STATS 2 EN 2 --- */
     .stats-bar { flex-wrap: wrap !important; flex-direction: row !important; }
@@ -90,7 +90,7 @@
     .footer .btn-secondary { display: block !important; width: 90% !important; max-width: 280px; margin: 20px auto 0 !important; }
 
     /* --- TAMAÑOS DE LETRA MÓVIL --- */
-    body { font-size: 0.9rem !important; overflow-x: hidden !important; }
+    body { font-size: 0.9rem !important; overflow-x: hidden !important; padding-top: 70px !important; }
     .faq-item summary { font-size: 0.95rem !important; }
     .faq-item p { font-size: 0.85rem !important; }
     .subtitle { font-size: 0.95rem !important; }
