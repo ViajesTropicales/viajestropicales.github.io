@@ -110,19 +110,21 @@
     .cards-container {
         display: flex !important;
         flex-direction: column !important;
-        align-items: center !important;
+        align-items: stretch !important;
         gap: 20px !important;
-        padding: 0 5% 50px !important; /* margen antes del footer */
+        padding: 0 5% 50px !important;
     }
+
     .rutas-lista { padding: 0 2% !important; }
-    .rutas { padding-bottom: 60px !important; }
 
     .card {
         width: 100% !important;
         max-width: 480px !important;
         height: auto !important;
         overflow: visible !important;
-        margin-bottom: 10px !important;
+        margin: 0 auto !important;
+        display: flex !important;
+        flex-direction: column !important;
     }
 
     .card img {
@@ -132,6 +134,7 @@
     }
 
     .card-body {
+        flex: 1 !important;
         padding: 15px !important;
         height: auto !important;
         overflow: visible !important;
