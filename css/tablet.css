@@ -115,6 +115,7 @@
         padding: 0 5% 50px !important; /* margen antes del footer */
     }
     .rutas-lista { padding: 0 2% !important; }
+    .rutas { padding-bottom: 60px !important; }
 
     .card {
         width: 100% !important;
