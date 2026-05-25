@@ -1,6 +1,6 @@
 @media (min-width: 768px) and (max-width: 1025px) {
 
-    /* --- MENÚ HAMBURGUESA --- */
+    /* --- MENÚ HAMBURGUESA (ESTILO MÓVIL PERO ADAPTADO A TABLET) --- */
     .navbar ul { display: none !important; position: relative; }
     .menu-toggle { display: block !important; cursor: pointer; padding: 10px;  margin-left: auto !important;}
     .menu-toggle.is-active .bar:nth-child(2) { opacity: 0; }
@@ -8,22 +8,20 @@
     .menu-toggle.is-active .bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
     .bar { display: block; width: 25px; height: 3px; margin: 5px auto; background-color: #00334e; transition: 0.3s; }
     
-    /* MODIFICADO: Menú desplegable a lo ancho y centrado */
+    /* Tomamos la estructura base de tu móvil (absolute, top 60, left 0, width 100%) y centramos el contenido */
     .nav-list { 
         display: none; 
         flex-direction: column; 
-        align-items: center !important;
-        position: absolute !important; 
-        top: 100% !important; 
-        left: 0 !important; 
-        right: 0 !important;
-        width: 100% !important;
+        align-items: center !important; /* Centra los elementos horizontalmente */
+        width: 100%; 
+        position: absolute; 
+        top: 60px; 
+        left: 0;
         background-color: #ffffff; 
         text-align: center; 
-        padding: 20px 0 !important;
-        box-shadow: 0 10px 15px rgba(0,0,0,0.05) !important; 
-        z-index: 9999 !important;
-        border-radius: 0 !important;
+        padding: 20px 0;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+        z-index: 1000; 
     }
     .nav-list.active { display: flex !important; }
     
@@ -32,26 +30,25 @@
         list-style: none;
         width: 100%;
         text-align: center !important;
-        margin: 0 !important;
     }
     
     .nav-list li a { 
-        display: inline-block !important;
-        padding: 12px 0;
-        color: #555555 !important;
+        display: inline-block !important; /* Cambiado a inline-block para controlar el ancho visual del enlace */
+        padding: 10px 20px;
+        color: #555555 !important; /* Gris oscuro estético */
         text-decoration: none;
-        font-size: 1.1rem !important; 
+        font-size: 1.2rem !important; /* Mantiene tu tamaño original de tablet */
         transition: background 0.2s;
         width: auto !important;
     }
 
-    /* MODIFICADO: Botón "Escríbenos" estilo píldora alargada y centrado */
+    /* Estilo especial para el botón "Escríbenos" en formato píldora centrada */
     .nav-list li:last-child a {
         background-color: #21b5cd !important;  
         color: white !important;
         margin: 10px auto 0 auto !important;
-        border-radius: 20px !important;
-        padding: 8px 30px !important;
+        border-radius: 20px !important; /* Bordes completamente redondeados */
+        padding: 8px 30px !important; /* Alargado hacia los lados */
         font-weight: bold !important;
     }
     .nav-list li:last-child a:hover { background-color: #1aa2b8 !important; }
@@ -124,14 +121,9 @@
     .legal-section { padding-top: 120px !important; }
 
     /* --- FOOTER EN COLUMNA --- */
-    .footer-grid { 
-        display: flex !important; 
-        flex-direction: column !important;
-        align-items: center !important; 
-        text-align: center !important;
-        gap: 18px !important; 
-        padding: 25px 5% !important; 
-    }
+    .footer-grid { display: flex !important; flex-direction: column !important;
+        align-items: center !important; text-align: center !important;
+        gap: 18px !important; padding: 25px 5% !important; }
     .footer-info p {font-size: 1.2rem !important;}
     .footer-links a { margin-bottom: 8px !important; font-size: 1.2rem !important; }
     .footer-bottom p { font-size: 0.98rem !important; }
