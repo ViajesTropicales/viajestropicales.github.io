@@ -1,8 +1,8 @@
 /* --- CONFIGURACIÓN GENERAL --- */
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body {font-family: 'Poppins', sans-serif; color: #fff; line-height: 1.6; overflow-x: hidden;}
+body {font-family: 'Poppins', sans-serif; color: #fff; line-height: 1.6; overflow-x: hidden; padding-top: 70px;}
 /* --- NAVEGACIÓN --- */
-.navbar { display: flex;justify-content: space-between; align-items: center; padding: 20px 5%; background-color: #fff; position: absolute;width: 100%; z-index: 10;}
+.navbar { display: flex;justify-content: space-between; align-items: center; padding: 20px 5%; background-color: #fff; position: fixed; top: 0; width: 100%; z-index: 10;}
 .logo { font-weight: 600; font-size: 1.2rem; color: #00334e; }
 .navbar ul { list-style: none; display: flex; align-items: center; gap: 20px; }
 .navbar ul li a { text-decoration: none; color: #555; font-size: 1.1rem; transition: 0.3s; }
