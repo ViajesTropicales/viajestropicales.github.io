@@ -1,9 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://viajestropicales.netlify.app/sitemap.xml 
-
-
-
-
-
+Sitemap: https://viajestropicales.github.io/sitemap.xml
