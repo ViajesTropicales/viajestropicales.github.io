@@ -1,57 +1,19 @@
 @media (min-width: 768px) and (max-width: 1025px) {
 
-    /* --- MENÚ HAMBURGUESA (ESTILO MÓVIL PERO ADAPTADO A TABLET) --- */
+    /* --- MENÚ HAMBURGUESA --- */
     .navbar ul { display: none !important; position: relative; }
+    .navbar { position: fixed !important; top: 0 !important; width: 100% !important; z-index: 100 !important; }
     .menu-toggle { display: block !important; cursor: pointer; padding: 10px;  margin-left: auto !important;}
     .menu-toggle.is-active .bar:nth-child(2) { opacity: 0; }
     .menu-toggle.is-active .bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
     .menu-toggle.is-active .bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
     .bar { display: block; width: 25px; height: 3px; margin: 5px auto; background-color: #00334e; transition: 0.3s; }
-    
-    /* Tomamos la estructura base de tu móvil (absolute, top 60, left 0, width 100%) y centramos el contenido */
-    .nav-list { 
-        display: none; 
-        flex-direction: column; 
-        align-items: center !important; /* Centra los elementos horizontalmente */
-        width: 100%; 
-        position: absolute; 
-        top: 60px; 
-        left: 0;
-        background-color: #ffffff; 
-        text-align: center; 
-        padding: 20px 0;
-        box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
-        z-index: 1000; 
-    }
+    .nav-list { display: none; flex-direction: column; width: 100%; position: absolute; top: 60px; left: 0;
+        background-color: #ffffff; text-align: center; padding: 20px 0;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1); z-index: 1000; }
     .nav-list.active { display: flex !important; }
-    
     /* --- MENÚ --- */
-    .nav-list li {
-        list-style: none;
-        width: 100%;
-        text-align: center !important;
-    }
-    
-    .nav-list li a { 
-        display: inline-block !important; /* Cambiado a inline-block para controlar el ancho visual del enlace */
-        padding: 10px 20px;
-        color: #555555 !important; /* Gris oscuro estético */
-        text-decoration: none;
-        font-size: 1.2rem !important; /* Mantiene tu tamaño original de tablet */
-        transition: background 0.2s;
-        width: auto !important;
-    }
-
-    /* Estilo especial para el botón "Escríbenos" en formato píldora centrada */
-    .nav-list li:last-child a {
-        background-color: #21b5cd !important;  
-        color: white !important;
-        margin: 10px auto 0 auto !important;
-        border-radius: 20px !important; /* Bordes completamente redondeados */
-        padding: 8px 30px !important; /* Alargado hacia los lados */
-        font-weight: bold !important;
-    }
-    .nav-list li:last-child a:hover { background-color: #1aa2b8 !important; }
+    .nav-list li a { font-size: 1.2rem !important; }
 
     /* --- TEXTOS MÁS GRANDES --- */
     body { font-size: 1.1rem !important; }
@@ -61,7 +23,7 @@
     .banner-content h1 { font-size: 3rem !important; }
     .banner-content p { font-size: 1.7rem !important; }
 
-    /* --- HERO --- */
+        /* --- HERO --- */
     .hero { height: 60vh !important; overflow: hidden !important; }
     .hero-content h1 { font-size: 2.5rem !important; }
     .hero-content p { font-size: 1.2rem !important; }
@@ -69,31 +31,31 @@
     /* --- IMAGEN TARJETAS--- */
     .card:nth-child(3) img { object-position: center bottom !important; }
 
-    /* --- CARDS EN 3 COLUMNAS --- */
+/* --- CARDS EN 3 COLUMNAS --- */
     .cards-container {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        gap: 20px !important;
-        padding: 0 5% !important;
-    }
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px !important;
+    padding: 0 5% !important;
+}
     .rutas-lista { padding: 0 2% !important; }
     .card { width: 100% !important; max-width: 480px !important;  }
     .card img {  height: 180px !important; object-fit: cover !important; }
 
     .ruta-detalles-inner {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-    }
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
     .tabla-precios { 
-        width: 90% !important; 
-        max-width: 500px !important;
-    }
+    width: 90% !important; 
+    max-width: 500px !important;
+}
     .info-texto { width: 90% !important; }
     .info-texto p { font-size: 1.1rem !important; }
 
-    /* --- TESTIMONIOS --- */
+        /* --- TESTIMONIOS --- */
     .test-card p { font-size: 1rem !important; }
     .test-card strong { font-size: 1rem !important; }
 
@@ -109,6 +71,7 @@
     .blog-intro { font-size: 1.1rem !important; }
     .blog-item-texto p { font-size: 1.13rem !important; }
     .blog-item-texto h2 { font-size: 1.4rem !important; }
+
 
     /* --- ITINERARIO 2 EN 2 --- */
     .itinerario-container {
