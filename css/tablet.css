@@ -112,24 +112,41 @@
         flex-direction: column !important;
         align-items: center !important;
         gap: 20px !important;
-        padding: 0 5% !important;
+        padding: 0 5% 50px !important; /* margen antes del footer */
     }
     .rutas-lista { padding: 0 2% !important; }
-    .card { height: auto !important;  overflow: visible !important; max-width: 480px !important; }
-    .card img { height: 140px !important; object-fit: cover !important; border-radius: 15px 15px 0 0 !important; }
+
+    .card {
+        width: 100% !important;
+        max-width: 480px !important;
+        height: auto !important;
+        overflow: visible !important;
+        margin-bottom: 10px !important;
+    }
+
+    .card img {
+        height: 140px !important;
+        object-fit: cover !important;
+        border-radius: 15px 15px 0 0 !important;
+    }
 
     .card-body {
-        padding: 10px 12px !important; height: auto !important; overflow: visible !important;
+        padding: 15px !important;
+        height: auto !important;
+        overflow: visible !important;
     }
+
     .card h2 { font-size: 1.1rem !important; }
+
     .card p {
         font-size: 0.9rem !important;
         display: block !important;
         overflow: visible !important;
         -webkit-line-clamp: unset !important;
-        line-clamp: unset !important;  
+        line-clamp: unset !important;
         white-space: normal !important;
     }
+
     .ruta-badge { font-size: 0.85rem !important; }
 
     /* --- ENLACE VER ITINERARIO COMPLETO --- */
