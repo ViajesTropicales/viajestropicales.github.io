@@ -116,7 +116,7 @@
     }
     .rutas-lista { padding: 0 2% !important; }
     .card { width: 100% !important; max-width: 480px !important; }
-    .card img { height: 180px !important; object-fit: cover !important; }
+    .card img { height: 1430px !important; object-fit: cover !important; }
 
     .card-body {
         padding: 10px 12px !important;
