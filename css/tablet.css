@@ -2,10 +2,9 @@
 
     /* --- HUECO NAVBAR FIXED CORREGIDO --- */
     body {
-        padding-top: 0 !important; /* Eliminamos el empuje que causaba el hueco gris arriba */
+        padding-top: 60px !important; /* Ajustado al tamaño real de tu barra */
         font-size: 0.95rem !important;
         overflow-x: hidden !important;
-        background-color: #ffffff !important; /* Asegura que el fondo detrás del menú sea blanco puro */
     }
 
     /* --- MENÚ HAMBURGUESA --- */
@@ -100,14 +99,15 @@
     .banner-content h1 { font-size: 2.5rem !important; }
     .banner-content p { font-size: 1.4rem !important; }
 
-    /* --- HERO --- */
+    /* --- HERO (FOTO DE INICIO SIN HUECOS EXTRA) --- */
     .hero { 
-        height: 60vh !important; 
-        overflow: hidden !important;
-        padding-top: 70px !important; /* Añadimos el espacio del menú aquí de forma segura */
+        height: 45vh !important; /* Altura ideal reducida para pantallas tablet */
+        overflow: hidden !important; 
+        padding-top: 0 !important; /* Eliminamos el espacio duplicado superior */
+        margin-bottom: 20px !important;
     }
-    .hero-content h1 { font-size: 2.2rem !important; }
-    .hero-content p { font-size: 1.1rem !important; }
+    .hero-content h1 { font-size: 2.2rem !important; margin-bottom: 10px !important; }
+    .hero-content p { font-size: 1.1rem !important; margin-bottom: 15px !important; }
 
     /* --- TARJETAS --- */
     .card:nth-child(3) img { object-position: center bottom !important; }
@@ -117,7 +117,7 @@
         flex-direction: column !important;
         align-items: stretch !important;
         gap: 20px !important;
-        padding: 40px 5% 50px !important; /* Ajustado padding superior interno */
+        padding: 10px 5% 50px !important; /* Reducido espacio superior innecesario */
     }
 
     .rutas-lista { padding: 0 2% !important; }
@@ -165,12 +165,14 @@
         display: inline-block !important;
     }
 
-    /* --- DETALLES RUTA --- */
-    .ruta-detalles-inner {
+    /* --- DETALLES RUTA Y PÁGINAS SECUNDARIAS (AJUSTE TÍTULOS ARRIBA) --- */
+    .ruta-detalles-inner,
+    .quienes-main,
+    .contacto-main {
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
-        padding-top: 80px !important; /* Espaciado correcto para evitar que el menú pise el contenido */
+        padding-top: 30px !important; /* Reducido de 80px a 30px para pegar el título al menú */
     }
     .tabla-precios { width: 90% !important; max-width: 500px !important; }
     .info-texto { width: 90% !important; }
@@ -201,7 +203,9 @@
         padding: 20px 5% !important;
     }
     .dia-card { width: 100% !important; max-width: 100% !important; text-align: left !important; }
-    .legal-section { padding-top: 120px !important; }
+    
+    /* --- SECCIÓN LEGAL --- */
+    .legal-section { padding-top: 30px !important; } /* Reducido de 120px a 30px */
 
     /* --- FOOTER EN COLUMNA --- */
     .footer-grid {
