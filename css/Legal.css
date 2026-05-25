@@ -3,21 +3,14 @@ body { background-color: #e5e5e5d2; }
 
 /* --- SECCIÓN LEGAL --- */
 .legal-section {
-    padding: 60px 20px 80px;
+    padding: 120px 20px 80px;
 }
 
-.legal-contenido {
-    max-width: 700px;
-    margin: 0 auto;
-    color: #4a5568;
-}
+.legal-contenido { max-width: 700px; margin: 0 auto; color: #4a5568;}
 
 /* --- TÍTULOS --- */
-.legal-contenido h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.2rem;
-    color: #00334e;
-    margin-bottom: 20px;
+.legal-contenido h1 { font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;color: #00334e; margin-bottom: 20px;
 }
 
 .legal-contenido h2 {
@@ -35,31 +28,15 @@ body { background-color: #e5e5e5d2; }
     margin-bottom: 10px;
 }
 
-.legal-fecha {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 30px;
-}
+.legal-fecha { font-size: 14px; color: #666; margin-bottom: 30px; }
 
 .legal-fecha span { color: #2ab7ca; }
-
 /* --- LISTA --- */
-.legal-contenido ul {
-    padding-left: 20px;
-    margin-bottom: 10px;
-}
+.legal-contenido ul {padding-left: 20px;margin-bottom: 10px;}
 
-.legal-contenido ul li {
-    font-size: 14px;
-    line-height: 1.8;
-    margin-bottom: 8px;
-    color: #4a5568;
-}
+.legal-contenido ul li {font-size: 14px;line-height: 1.8;margin-bottom: 8px;color: #4a5568;}
 
 /* --- ENLACE --- */
-.legal-contenido a {
-    color: #2ab7ca;
-    text-decoration: none;
-}
+.legal-contenido a { color: #2ab7ca;text-decoration: none;}
 
 .legal-contenido a:hover { text-decoration: underline; }
