@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://viajestropicales.github.io/sitemap.xml
+Sitemap: https://viajestropicales.vercel.app/sitemap.xml
