@@ -11,7 +11,7 @@ body {font-family: 'Poppins', sans-serif; color: #fff; line-height: 1.6; overflo
 
 /* --- HERO --- */
 .hero {
-    height: 80vh; background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../img/banner-crucero-lujo-caribe.webp');
+    height: 80vh; background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../img/crucero-banner.webp');
     background-size: cover; background-position: center; display: flex; justify-content: center; align-items: center; text-align: center;}
 .hero-content { max-width: 800px; padding: 20px; }
 .hero-content h1 { font-family: 'Playfair Display', serif; font-size: 4rem; margin-bottom: 15px; line-height: 1.1; }
