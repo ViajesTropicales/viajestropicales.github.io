@@ -17,7 +17,7 @@ body { font-family: 'Poppins', sans-serif; background-color: var(--bg-principal)
 .navbar ul li a:hover { color: var(--naranja-acento); }
 
 /* --- SECCIONES DE CABECERA --- */
-.rutas-hero { background-color: var(--bg-principal); text-align: center; padding: 40px 13px 40px; /* Añade 40px abajo en vez de que sea simétrico */}
+.rutas-hero { background-color: var(--bg-principal); text-align: center; padding: 0 13px 40px; margin-top: -80px; padding-top: 80px; /* Añade 40px abajo en vez de que sea simétrico */}
 
 .rutas-hero h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; color: var(--azul-oscuro); margin-bottom: 15px;}
 /* --- LISTADO DE RUTAS (CARDS) --- */
