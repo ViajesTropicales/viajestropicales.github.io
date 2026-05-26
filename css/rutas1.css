@@ -42,6 +42,8 @@ body { font-family: 'Poppins', sans-serif; background-color: var(--bg-principal)
     background-color: var(--blanco); border-radius: 15px; padding: 25px;
     margin-bottom: 20px; display: flex; gap: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
+
 /* --- FOOTER --- */
 .footer { background-color: var(--azul-oscuro); color: var(--blanco); padding: 60px 10% 20px; }
 .footer-links a { color: rgba(255, 255, 255, 0.8); text-decoration: none; font-size: 14px; display: block; margin-bottom: 8px; }
+
