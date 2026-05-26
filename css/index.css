@@ -1,7 +1,6 @@
 /* --- CONFIGURACIÓN GENERAL --- */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {font-family: 'Poppins', sans-serif; color: #fff; line-height: 1.6; overflow-x: hidden;}
-
 /* --- NAVEGACIÓN --- */
 .navbar { display: flex;justify-content: space-between; align-items: center; padding: 20px 5%; background-color: #fff; position: fixed; top: 0; width: 100%; z-index: 10;}
 .logo { font-weight: 600; font-size: 1.2rem; color: #00334e; }
