@@ -6,10 +6,10 @@
 /* --- RESET Y BASE --- */
 * { margin: 0; padding: 0; box-sizing: border-box;}
 
-body {font-family: 'Poppins', sans-serif; background-color: var(--bg-principal); color: var(--texto-cuerpo); line-height: 1.6; overflow-x: hidden;}
+body { font-family: 'Poppins', sans-serif; background-color: var(--bg-principal); color: var(--texto-cuerpo); line-height: 1.6; overflow-x: hidden; padding-top: 80px; }
 
 /* --- NAVEGACIÓN --- */
-.navbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 5%; background-color: var(--blanco); width: 100%; z-index: 100; position: relative;}
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 5%; background-color: var(--blanco); width: 100%; z-index: 100; position: fixed; top: 0; }
 
 .logo {font-weight: 600; font-size: 1.2rem; color: var(--azul-oscuro);}
 .navbar ul { list-style: none; display: flex; gap: 20px;}
